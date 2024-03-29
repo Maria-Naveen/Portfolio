@@ -1,0 +1,116 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(images/space.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    max-width: 550px;
+    min-height: 350px;
+    backdrop-filter: blur(25px);
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #d5cccc24
+}
+.top span{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.top i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30%;
+}
+.top i:hover{
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.middle{
+    display: flex;
+    padding: 20px 30px 0 30px;
+
+}
+.middle img{
+    width: 170px;
+    border-radius: 20px;
+    border: 5px solid rgba(255,255,255,0.25);
+}
+.middle .right{
+    margin: 20px 0 10px 50px;
+}
+
+ul li{
+    position: relative;
+    left: -2em;
+    width:fit-content;
+    list-style-type: circle;
+    list-style-position: outside;
+    text-align: left;
+    padding: 5px;   
+}
+
+.social-icon{
+    display: flex;
+    flex-direction: row;
+}
+.social-icon span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+a:visited{
+    color: #fff;
+}
+a:hover{
+    color: #3c79db;
+}
+.social-icon i{
+    font-size: 20px;
+}
+.social-icon span:hover{
+    color: #3c79db;
+    background: #fff;
+    transform: translateY(-4px);
+    box-shadow: inset 0 0 0 15px #fff;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0 30px;
+}
+
+#cv{
+    text-decoration: none;
+}
+
+
+
